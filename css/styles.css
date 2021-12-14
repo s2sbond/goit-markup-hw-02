@@ -1,0 +1,78 @@
+/* основной цвет текста #212121  */
+/* дополнительный цвет текста #757575 */
+/* дополнительный цвет текста #FFFFFF */
+/* цвет лого #000000, #2196F3 */
+/* телефон и мыло в футере цвет rgba(255, 255, 255, 0.6);*/
+/* акцент #2196F3 */
+/* hero background #2F303A; */
+/*  our team bg #F5F4FA;*/
+/* footer bg #2F303A; */
+
+/* total styles */
+
+body {
+  color: #212121;
+  background-color: #ffffff;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+/* header styles */
+
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+
+.logo-black {
+  color: #000000;
+}
+
+.site-nav a {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+  color: #2196f3;
+}
+
+.contact a {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.contact a:hover,
+.contact a:focus {
+  color: #2196f3;
+}
+
+/* main styles */
+
+/* footer styles */
+
+.footer {
+  background-color: #2f303a;
+}
+.logo-white {
+  color: #ffffff;
+}
