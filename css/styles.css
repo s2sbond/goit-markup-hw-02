@@ -11,12 +11,14 @@
 /* total styles */
 
 body {
+  font-family: 'Roboto', sans-serif;
   color: #212121;
   background-color: #ffffff;
 }
 
 .link {
   text-decoration: none;
+  outline: none;
 }
 
 .list {
@@ -26,7 +28,7 @@ body {
 /* header styles */
 
 .logo {
-  font-family: Raleway, sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -38,8 +40,7 @@ body {
   color: #000000;
 }
 
-.site-nav a {
-  font-family: Roboto;
+.header-nav-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -47,13 +48,12 @@ body {
   color: #212121;
 }
 
-.site-nav a:hover,
-.site-nav a:focus {
+.header-nav-link:hover,
+.header-nav-link:focus {
   color: #2196f3;
 }
 
-.contact a {
-  font-family: Roboto;
+.header-contact-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -61,8 +61,8 @@ body {
   color: #757575;
 }
 
-.contact a:hover,
-.contact a:focus {
+.header-contact-link:hover,
+.header-contact-link:focus {
   color: #2196f3;
 }
 
@@ -75,4 +75,18 @@ body {
 }
 .logo-white {
   color: #ffffff;
+}
+
+.footer-addr {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.footer-addr-list {
+}
+
+.footer-addr-item {
+}
+.footer-addr-link {
 }
