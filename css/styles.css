@@ -34,6 +34,10 @@ body {
   list-style: none;
 }
 
+.title {
+  color: var(--title-color);
+}
+
 /* header styles */
 
 .logo {
@@ -70,6 +74,7 @@ body {
   color: var(--main-text-color);
 }
 
+.current,
 .header-contact-link:hover,
 .header-contact-link:focus {
   color: var(--accent-color);
@@ -86,7 +91,6 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--external-color);
@@ -96,7 +100,25 @@ body {
   background-color: var(--accent-color);
   color: var(--external-color);
   cursor: pointer;
+  border: none;
 }
+
+/* filter's styles */
+
+.filter-btn {
+  background-color: var(--ex-bg-color);
+  color: var(--title-color);
+  cursor: pointer;
+  border: none;
+}
+
+.active,
+.filter-btn:hover,
+.filter-btn:focus {
+  background-color: var(--accent-color);
+  color: var(--external-color);
+}
+
 
 /* footer styles */
 
