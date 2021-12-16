@@ -8,7 +8,7 @@
 /*  our team bg #F5F4FA;*/
 /* footer bg #2F303A; */
 
-/* total styles */
+/* -------------total styles------------- */
 
 :root {
   --main-text-color: #757575;
@@ -38,7 +38,7 @@ body {
   color: var(--title-color);
 }
 
-/* header styles */
+/* -------------header styles-------------- */
 
 .logo {
   font-family: 'Raleway', sans-serif;
@@ -80,7 +80,7 @@ body {
   color: var(--accent-color);
 }
 
-/* main styles */
+/* ------------------hero styles---------------- */
 
 .hero {
   background-color: var(--bg-color);
@@ -97,15 +97,111 @@ body {
 }
 
 .hero-btn {
+  font-size: 16px;
+  line-height: 1.87;
+  font-weight: 700;
+  letter-spacing: 0.06em;
   background-color: var(--accent-color);
   color: var(--external-color);
   cursor: pointer;
   border: none;
 }
 
-/* filter's styles */
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #188ce8;
+}
+
+/* -------------Наши особенности styles-------- */
+
+/* .feature {
+}
+.feature-list {
+}
+.feature-list-item {
+} */
+
+.feature-list-title {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.feature-list-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+/* ------------Чем мы занимаемся styles----- */
+
+/* 
+.product {
+} */
+
+.product-title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* .product-list {
+}
+.product-list-item {
+}
+.product-list-img {
+} */
+
+/* ---------Наша команда styles----------- */
+
+.team {
+  background-color: var(--ex-bg-color);
+}
+.team-title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* .team-list {
+}
+.team-list-item {
+}
+.team-list-img {
+} */
+
+.team-list-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.team-list-text {
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+/* ------------Portfolio styles------------ */
+
+/* .portfolio {
+} */
+
+/* ------------filter's styles------------- */
+
+/* .filter-list {
+}
+
+.filter-item {} */
 
 .filter-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
   background-color: var(--ex-bg-color);
   color: var(--title-color);
   cursor: pointer;
@@ -119,8 +215,29 @@ body {
   color: var(--external-color);
 }
 
+/* ------------project styles----------- */
 
-/* footer styles */
+/* .project-list {
+}
+
+.project-list-item {
+}
+.project-list-img {
+} */
+
+.project-list-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.project-list-text {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
+
+/* -------------footer styles------------- */
 
 .footer {
   background-color: var(--bg-color);
@@ -129,13 +246,14 @@ body {
   color: #ffffff;
 }
 
-.footer-addr {
+/* .footer-addr {
 }
 .footer-addr-list {
 }
 
 .footer-addr-item {
-}
+} */
+
 .footer-addr-link {
   font-style: normal;
   font-size: 14px;
